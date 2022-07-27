@@ -13,7 +13,7 @@ The Status Badge showing **PASSED** above is pulled from CicleCI integration.
 ## Running the Python Script
 
 - Create a Python Virtual Environment.
-> `python3 -m -venv [nameofenv]``
+> `python3 -m -venv [nameofenv]`
 - Source the virtual environment to activate it.
 > `source [nameofenv]/bin/activate`
 
