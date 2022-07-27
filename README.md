@@ -37,7 +37,7 @@ This directory contains a config.yml file which creates a virtual environment an
 This directory contains files used in the flask app to get required data for prediction
 - **output_txt_files**
 This directory contains the log files after making predictions with `./make_prediction.sh`
-- **app.py*
+- **app.py**
 This is a python flask app containing the code for the microservice
 - **Dockerfile**
 The Dockerfile contains all the commands a user could call on the command line to build the docker image.
