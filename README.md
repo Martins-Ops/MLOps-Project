@@ -8,7 +8,7 @@ This Project puts in operation a python flask application which was built with s
 The project makes use of [Docker](https://www.docker.com) in containerizing the application and service orchestration using [Kubernetes](https://kubernetes.io) in deploying the containerized application.
 
 The Status Badge showing **PASSED** above is pulled from CicleCI integration.
-[CicleCI](https://circleci.com) defines an automated testing environment which indicates that the code has passed all lint tests. The circleci uses a yaml file which canbe found ibe .circleci directory of the repository
+[CicleCI](https://circleci.com) defines an automated testing environment which indicates that the code has passed all lint tests. The circleci uses a yaml file which can be found in the .circleci directory of the repository
 
 ## Running the Python Script
 
