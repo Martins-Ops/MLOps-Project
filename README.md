@@ -23,7 +23,9 @@ source [nameofenv]/bin/activate
 
 Now we have  created a Virtual environment which has python and its packages installed.
 Next install the packages required to run the application in **requirements.txt** of the repository.
-> `pip install --upgrade pip &&\ pip install -r requirements.txt`
+```bash
+pip install --upgrade pip &&\ pip install -r requirements.txt
+```
 
 ### Running Web app (app.py)
 
@@ -37,7 +39,7 @@ The following command runs the web app from the relevant files present in the re
 ./make_prediction.sh
 ```
 
-#### Files in the repository
+## Files in the repository
 
 - **.circleci**
 This directory contains a config.yml file which creates a virtual environment and passes lint test on the project code
@@ -61,3 +63,6 @@ A bash script that executes commands to build docker image, list the images in t
 A bash script that executes commands to run the containerized app on kubernetes using `kubectl`, list the running pods and forward the container port to a host port
 - **upload_docker.sh** 
 A bash script that executes commands to create a docker path using the format `docker ID/image name`, tag the docker image and finally push it to dockerhub.
+
+The Dockerfile contains all the commands a user could call on the command line to build the docker image.
+
