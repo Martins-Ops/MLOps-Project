@@ -13,9 +13,13 @@ The Status Badge showing **PASSED** above is pulled from CicleCI integration.
 ## Running the Python Script
 
 - Create a Python Virtual Environment.
-> `python3 -m -venv [nameofenv]`
+```bash
+python3 -m -venv [nameofenv]
+```
 - Source the virtual environment to activate it.
-> `source [nameofenv]/bin/activate`
+```bash
+source [nameofenv]/bin/activate
+```
 
 Now we have  created a Virtual environment which has python and its packages installed.
 Next install the packages required to run the application in **requirements.txt** of the repository.
@@ -25,9 +29,13 @@ Next install the packages required to run the application in **requirements.txt*
 
 The following command runs the web app from the relevant files present in the repository.
 - Run the Dockerfile present in the repository
-> `./run_docker.sh`
+```bash
+./run_docker.sh
+```
 - Test the application by making predictions
-> `./make_prediction.sh`
+```bash
+./make_prediction.sh
+```
 
 #### Files in the repository
 
