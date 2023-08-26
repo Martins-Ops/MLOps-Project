@@ -1,7 +1,7 @@
 
 # Operationalize a machine learning microservice API
 
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/Martins-Ops/MLOps-Project/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/Martins-Ops/MLOps-Project/tree/main)
+<!--- [![CircleCI](https://dl.circleci.com/status-badge/img/gh/Martins-Ops/MLOps-Project/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/Martins-Ops/MLOps-Project/tree/main) --->
 
 This Project puts in operation a python flask application which was built with sklearn model API, its main function is to operationalize the microservice to serve out predictions about housing prices through API calls.
 
